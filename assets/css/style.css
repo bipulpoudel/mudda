@@ -31,7 +31,7 @@ body {
   line-height: 1.7;
   font-size: 14px;
   font-weight: 400;
-  background-color: #f1f1f1;
+  background-color: #02c5da;
   font-family: 'Open Sans', sans-serif;
 
 }
@@ -139,31 +139,31 @@ textarea:focus {
 }
 
 ::-webkit-input-placeholder {
-  color: #999;
+  color: white;
   font-size: 13px;
   opacity: 1;
 }
 
 ::-moz-placeholder {
-  color: #999;
+  color: white;
   font-size: 13px;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #999;
+  color: white;
   font-size: 13px;
   opacity: 1;
 }
 
 ::-ms-input-placeholder {
-  color: #999;
+  color: white;
   font-size: 13px;
   opacity: 1;
 }
 
 ::placeholder {
-  color: #999;
+  color: white;
   font-size: 13px;
   opacity: 1;
 }
@@ -767,7 +767,7 @@ textarea:focus {
 
 /*------- short classes start -------*/
 .bg-color {
-  background-color: #f1f1f1;
+  background-color: #6e70e1;
 }
 
 .pt-20 {
@@ -831,6 +831,7 @@ textarea:focus {
             header area start
 ----------------------------------------*/
 .header-top {
+  background-image: linear-gradient(to bottom right, #4633af, #6e70e1);;
   -webkit-box-shadow: 0px 1px 20px 0px rgba(85, 85, 85, 0.25);
           box-shadow: 0px 1px 20px 0px rgba(85, 85, 85, 0.25);
 }
@@ -897,7 +898,7 @@ textarea:focus {
 }
 
 .header-top-navigation ul li a {
-  color: #333333;
+  color: white;
   display: block;
   font-size: 16px;
   font-weight: 700;
@@ -923,7 +924,7 @@ textarea:focus {
 }
 
 .header-top-navigation ul li:hover a, .header-top-navigation ul li.active a {
-  color: #dc4734;
+  color: #02c5da;
 }
 
 .header-top-navigation ul li .message-dropdown {
@@ -933,7 +934,7 @@ textarea:focus {
   height: auto;
   padding: 15px;
   position: absolute;
-  background-color: #fff;
+  background-color: white;
   border-radius: 0 0 2px 2px;
   z-index: 999;
   display: none;
@@ -967,7 +968,7 @@ textarea:focus {
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
-  color: #333333;
+  color: black;
   text-transform: capitalize;
 }
 
@@ -975,12 +976,12 @@ textarea:focus {
   font-size: 12px;
   font-weight: 400;
   line-height: 1;
-  color: #666666;
+  color: black;
   margin-left: 20px;
 }
 
 .dropdown-title .message-btn-group button:hover {
-  color: #dc4734;
+  color: #02c5da;
   text-decoration: underline;
 }
 
@@ -989,7 +990,7 @@ textarea:focus {
 }
 
 .dropdown-title button:hover {
-  color: #dc4734;
+  color: #02c5da;
 }
 
 .msg-dropdown-footer {
@@ -1011,7 +1012,7 @@ textarea:focus {
 }
 
 .msg-dropdown-footer button:hover {
-  color: #dc4734;
+  color: #02c5da;
   text-decoration: underline;
 }
 
@@ -1436,6 +1437,7 @@ textarea:focus {
   border-radius: 0;
   padding: 30px;
   margin-bottom: 30px;
+  background-color: white;
   -webkit-box-shadow: 0px 1px 15px 0px rgba(51, 51, 51, 0.2);
           box-shadow: 0px 1px 15px 0px rgba(51, 51, 51, 0.2);
 }
@@ -1485,7 +1487,7 @@ textarea:focus {
   position: relative;
   border-radius: 50px;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #6e70e1;
   -webkit-box-shadow: inset 0px 1px 10px 0px rgba(85, 85, 85, 0.2);
           box-shadow: inset 0px 1px 10px 0px rgba(85, 85, 85, 0.2);
   -webkit-transition: all 0.4s ease;
@@ -1612,7 +1614,7 @@ textarea:focus {
   right: 0;
   top: 100%;
   width: 200px;
-  background-color: #fff;
+  background-color: #6e70e1;
   position: absolute;
   padding: 20px;
   z-index: 9;
@@ -1809,7 +1811,7 @@ textarea:focus {
   top: 100%;
   right: 0;
   width: 250px;
-  background-color: #fff;
+  background-color: #6e70e1;
   position: absolute;
   z-index: 1;
   border-radius: 0 0 2px 2px;
