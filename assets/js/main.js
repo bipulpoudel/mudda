@@ -202,6 +202,12 @@
 	$('#email').bind("cut copy paste",function(e) {
 		e.preventDefault();
 	});
-    
+	
+	
+	$(document).ready(function(){
+		$(".post-comment").click(function(){
+		$(".total-comment").toggle();
+	  });    
+	});
 })(jQuery);
 
