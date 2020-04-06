@@ -3538,6 +3538,10 @@ textarea:focus {
 }
 .total-comment{
   display: none;
+  font-size: 12px;
+}
+.total-comment a{
+  font-size: 14px;
 }
 /*------- mobile footer area end -------*/
 
